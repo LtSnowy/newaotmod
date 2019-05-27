@@ -10,3 +10,5 @@ C:\Users\nande\Desktop\from downloads\AOTTG 01042015 penguin mod\anewmod\Assembl
 C:\Users\nande\Desktop\from downloads\AOTTG 01042015 penguin mod\anewmod\Assembly-CSharp\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\nande\Desktop\from downloads\AOTTG 01042015 penguin mod\anewmod\Assembly-CSharp\obj\Debug\Assembly-CSharp.dll
 C:\Users\nande\Desktop\from downloads\AOTTG 01042015 penguin mod\anewmod\Assembly-CSharp\obj\Debug\Assembly-CSharp.pdb
+C:\Users\nande\Desktop\from downloads\AOTTG 01042015 penguin mod\AoTTG_Data\Managed\Assembly-CSharp.dll
+C:\Users\nande\Desktop\from downloads\AOTTG 01042015 penguin mod\AoTTG_Data\Managed\Assembly-CSharp.pdb
