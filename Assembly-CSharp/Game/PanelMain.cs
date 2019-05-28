@@ -8,15 +8,17 @@ public class PanelMain
     private void OnEnable()
     {
     }
-    private void showTxt()
+
+    private void ShowTxt()
     {
         this.lang = Language.type;
 
-        GameObjects.label_multi.GetComponent<UILabel>().text = Language.btn_multiplayer[Language.type];
-        GameObjects.label_single.GetComponent<UILabel>().text = Language.btn_single[Language.type];
+        GameObjects.label_multi.GetComponent<UIManager.UILabel>().Text = Language.btn_multiplayer[Language.type];
+        GameObjects.label_single.GetComponent<UIManager.UILabel>().Text = Language.btn_single[Language.type];
     }
+
     private void Update()
     {
-        this.showTxt();
+        this.ShowTxt();
     }
 }

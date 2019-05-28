@@ -32,19 +32,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Cameras\GameMainCamera.cs" />
-    <Compile Include="Game\GameManager.cs" />
+    <Compile Include="Game\Managers\GameManager.cs" />
     <Compile Include="Game\Gametype.cs" />
     <Compile Include="Game\Language.cs" />
     <Compile Include="Game\LoginSnowy.cs" />
-    <Compile Include="Game\NGUITools.cs" />
+    <Compile Include="Game\UI%27s\NGUIManager.cs" />
     <Compile Include="Game\PanelMain.cs" />
     <Compile Include="Game\PlayerInfoPHOTON.cs" />
-    <Compile Include="Game\UI%27s\UILabel.cs" />
-    <Compile Include="Game\UI%27s\UIWidget.cs" />
     <Compile Include="GUI\MainReferences.cs" />
     <Compile Include="Game\GameObjects.cs" />
     <Compile Include="Pride\Pride.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test.cs" />
+    <Compile Include="Game\UI%27s\UIManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp-firstpass">

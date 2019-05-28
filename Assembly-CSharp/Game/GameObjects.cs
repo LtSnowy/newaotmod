@@ -7,8 +7,6 @@ using UnityEngine;
 
 public class GameObjects
 {
-    public static GameObject Derp;
-
     public static GameObject label_multi;
 
     public static GameObject label_single;

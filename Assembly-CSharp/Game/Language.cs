@@ -220,7 +220,7 @@ public class Language
         return 0;
     }
 
-    public static void init()
+    public static void Init()
     {
         char[] separator = new char[] { "\n"[0] };
         string[] strArray = ((TextAsset)Resources.Load("lang")).text.Split(separator);

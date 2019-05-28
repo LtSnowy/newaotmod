@@ -9,7 +9,7 @@ public class PlayerInfoPHOTON
 
     public string entry = string.Empty;
 
-    public void initAsGuest()
+    public void InitAsGuest()
     {
         this.name = "RAIDE" + UnityEngine.Random.Range(0, 100);
     }

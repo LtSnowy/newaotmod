@@ -11,12 +11,8 @@ class MainReferences : MonoBehaviour
 
     public static string PrideVersion = "01042015";
 
-    public static string back = Application.dataPath + "background.jpg";
-
     //public static List<string> AllProps;
-
-
-
+    
     public IEnumerator Request(string ShowVersion, string FormVersion)
     {
         string url = Application.dataPath + "/RCAssets.unity3d";
@@ -49,7 +45,7 @@ class MainReferences : MonoBehaviour
         string ShowVersion = "08/12/2015";
         string FormVersion = "01122015";
         GameVersion = "01042015";
-        NGUITools.SetActive(GameObjects.PanelMain, true);
+        NGUIManager.NGUITools.SetActive(GameObjects.PanelMain, true);
         if (firstlaunch)
         {
             PrideVersion = GameVersion;
